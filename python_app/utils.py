@@ -1,9 +1,5 @@
-
 """Funciones utilitarias simples."""
 
-def suma(a, b):
-    # complejidad innecesaria (pero funcional)
-    if a == 0:
-        return b
-    else:
-        return a + b
+def suma(a: int, b: int) -> int:
+    """Realiza la suma de dos numero enteros y retorna el resultado"""
+    return a + b
